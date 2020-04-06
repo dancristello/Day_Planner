@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Day Planner</title>
-    <link ref="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="ex.) Grocery Shopping, Walk the Dog, etc...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    
+    <ul id="myUL"></ul>
+
     <script src="script.js"></script>
 </body>
 </html>
