@@ -1,1 +1,1 @@
-# Day_Planner
+# This is a daily planner/to-do list.
